@@ -60,7 +60,7 @@ class Solution(object):
         stack = []
         stack.append(["", 0])
         for ch in s:
-            #123456789
+            # 123456789
             if ch.isdigit():
                 num += ch
             elif ch == '[':
@@ -75,8 +75,6 @@ class Solution(object):
                 # characters
                 stack[-1][0] += ch
         return stack[0][0]
-
-
 
 
 yyoo = Solution()
